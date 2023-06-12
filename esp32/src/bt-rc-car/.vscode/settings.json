@@ -1,0 +1,20 @@
+{
+    "fileHeaderComment.parameter": {
+    "*": {
+        "commentprefix": "///",
+    }
+    },
+    "fileHeaderComment.template": {
+        "*" : [
+            "${commentprefix} @file ${filename}",
+            "${commentprefix}",
+            "${commentprefix} @note Copyright (c) ${year} Dominik Kala <dominikkala@gmail.com>",
+        ]
+    },
+    "doxdocgen.c.commentPrefix": "/// ",
+    "doxdocgen.c.firstLine": "",
+    "doxdocgen.c.lastLine": "",
+    "doxdocgen.generic.briefTemplate": "{text}",
+    "doxdocgen.generic.useGitUserName": true
+}
+
