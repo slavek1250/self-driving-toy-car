@@ -8,7 +8,7 @@
         "*" : [
             "${commentprefix} @file ${filename}",
             "${commentprefix}",
-            "${commentprefix} @note Copyright (c) ${year} Dominik Kala <dominikkala@gmail.com>",
+            "${commentprefix} @note Copyright (c) ${year} slavek1250",
         ]
     },
     "doxdocgen.c.commentPrefix": "/// ",
