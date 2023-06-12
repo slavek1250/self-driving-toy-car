@@ -83,10 +83,13 @@ bool AndiCoBluetoothRcCarCmd::Decode(const int data, CarControlCmd::Command::Com
     case static_cast<int>('q'):
         rCmd = Command::SET_SPEED;
         rData = DecodeSpeed(data);
+        result = true;
         break;
     default:
         break;
     }
+
+    return result;
 }
 
 uint8_t AndiCoBluetoothRcCarCmd::DecodeSpeed(const int data) const
