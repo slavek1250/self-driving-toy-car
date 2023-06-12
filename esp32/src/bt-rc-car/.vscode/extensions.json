@@ -2,12 +2,12 @@
     // See http://go.microsoft.com/fwlink/?LinkId=827846
     // for the documentation about the extensions.json format
     "recommendations": [
-        "platformio.platformio-ide",
-        "ybaumes.highlight-trailing-white-spaces",
-        "stkb.rewrap",
+        "cschlosser.doxdocgen",
         "doi.fileheadercomment",
+        "platformio.platformio-ide",
+        "stkb.rewrap",
         "streetsidesoftware.code-spell-checker",
-        "cschlosser.doxdocgen"
+        "ybaumes.highlight-trailing-white-spaces"
     ],
     "unwantedRecommendations": [
         "ms-vscode.cpptools-extension-pack"
